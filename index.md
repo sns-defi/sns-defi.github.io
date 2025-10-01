@@ -44,30 +44,22 @@ title: "Homepage"
 <section>
   <h2 class="section-title">About</h2>
   <p>
-    The Scuola Normale Superiore is proud to host this premier event about Decentralized Finance (DeFi) and Crypto. Our goal is to foster collaboration and spur innovation in this rapidly evolving field, bringing together experts from both academia and industry.
+    The Scuola Normale Superiore is proud to host this premier event dedicated to Decentralized Finance (DeFi) and Crypto, bringing together leading voices from academia and industry to foster collaboration and spark innovation. Alongside discussions on the policy, technology, and market forces shaping the crypto ecosystem, the workshop shines a light on topics such as automated market makers, liquidity provision, and MEV; risk modeling and systemic fragility in DeFi; microstructure of centralized and decentralized exchanges; price discovery and volatility; token governance, NFTs and digital assets; stablecoins and emerging payment rails; and agent-based modeling, econophysics, and network effects in complex crypto systems.
   </p>
-</section>
-
-<section class="mt-4">
-  <h2 class="section-title">Topics of Interest</h2>
-  <div class="topics-grid">
-    <div class="topic-item">AMMs, liquidity provision, slippage and MEV</div>
-    <div class="topic-item">Risk modeling and systemic risk in DeFi</div>
-    <div class="topic-item">Market microstructure of crypto exchanges (CEX/DEX)</div>
-    <div class="topic-item">Price discovery and volatility</div>
-    <div class="topic-item">Token economics, governance, NFTs and digital assets</div>
-    <div class="topic-item">Stablecoins and payment rails</div>
-    <div class="topic-item">Agent-based modeling, econophysics, complexity science, and network effects in crypto ecosystems</div>
-  </div>
 </section>
 
 <section class="mt-5">
   <h2 class="section-title">Sponsors</h2>
-  <p class="text-muted">Logos coming soon&mdash;placeholders shown below.</p>
+  <p class="text-muted">We thank our sponsors for their support.</p>
   <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
-    <span class="sponsor-placeholder">Sponsor logo placeholder</span>
-    <span class="sponsor-placeholder">Sponsor logo placeholder</span>
-    <span class="sponsor-placeholder">Sponsor logo placeholder</span>
+    <img
+      src="{{ '/assets/img/prin.png' | relative_url }}"
+      alt="PRIN"
+      class="sponsor-logo">
+    <img
+      src="{{ '/assets/img/logo_unibo.png' | relative_url }}"
+      alt="University of Bologna"
+      class="sponsor-logo">
   </div>
 </section>
 
