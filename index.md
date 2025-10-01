@@ -50,18 +50,39 @@ title: "Homepage"
 
 <section class="mt-4">
   <h2 class="section-title">Topics of Interest</h2>
-  <div class="row row-cols-1 row-cols-md-2 g-3">
-    <div class="col"><div class="card h-100"><div class="card-body">
-      AMMs, liquidity provision, slippage and MEV; risk modeling and systemic risk in DeFi.
-    </div></div></div>
-    <div class="col"><div class="card h-100"><div class="card-body">
-      Market microstructure of crypto exchanges (CEX/DEX); price discovery and volatility.
-    </div></div></div>
-    <div class="col"><div class="card h-100"><div class="card-body">
-      Token economics, governance, NFTs and digital assets; stablecoins and payment rails.
-    </div></div></div>
-    <div class="col"><div class="card h-100"><div class="card-body">
-      Agent-based modeling, econophysics, complexity science, and network effects in crypto ecosystems.
-    </div></div></div>
+  <div class="topics-grid">
+    <div class="topic-item">AMMs, liquidity provision, slippage and MEV</div>
+    <div class="topic-item">Risk modeling and systemic risk in DeFi</div>
+    <div class="topic-item">Market microstructure of crypto exchanges (CEX/DEX)</div>
+    <div class="topic-item">Price discovery and volatility</div>
+    <div class="topic-item">Token economics, governance, NFTs and digital assets</div>
+    <div class="topic-item">Stablecoins and payment rails</div>
+    <div class="topic-item">Agent-based modeling, econophysics, complexity science, and network effects in crypto ecosystems</div>
   </div>
+</section>
+
+<section class="mt-5">
+  <h2 class="section-title">Sponsors</h2>
+  <p class="text-muted">Logos coming soon&mdash;placeholders shown below.</p>
+  <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
+    <span class="sponsor-placeholder">Sponsor logo placeholder</span>
+    <span class="sponsor-placeholder">Sponsor logo placeholder</span>
+    <span class="sponsor-placeholder">Sponsor logo placeholder</span>
+  </div>
+</section>
+
+<section class="mt-5">
+  <h2 class="section-title">Invited Speakers</h2>
+  {% assign homepage_speakers = site.data.speakers | default: empty %}
+  {% if homepage_speakers and homepage_speakers != empty %}
+    <ul class="invited-speakers-list">
+      {% for speaker in homepage_speakers %}
+        <li>
+          <strong>{{ speaker.name }}</strong>{% if speaker.affiliation %}, {{ speaker.affiliation }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="text-muted">Speaker lineup coming soon.</p>
+  {% endif %}
 </section>

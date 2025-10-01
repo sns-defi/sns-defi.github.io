@@ -31,3 +31,30 @@ footer a { text-decoration: none; }
 .hero-logo {
   filter: drop-shadow(0 4px 16px rgba(0,0,0,.25));
 }
+
+.topics-grid {
+  display: grid;
+  gap: .75rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.topic-item {
+  background: rgba(13,110,253,.08);
+  border-radius: 999px;
+  padding: .75rem 1rem;
+  font-size: .95rem;
+}
+
+.sponsor-placeholder {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.invited-speakers-list {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.invited-speakers-list li + li {
+  margin-top: .35rem;
+}
