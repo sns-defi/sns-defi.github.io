@@ -7,7 +7,7 @@ title: "Homepage"
   <div class="container py-4">
     <div class="row align-items-center">
       <div class="col-lg-8">
-        <span class="badge text-bg-primary">Conference</span>
+        <!-- <span class="badge text-bg-primary">Conference</span> -->
         <!-- <span class="badge badge-accent ms-2 text-white">DeFi · Crypto</span> -->
         <h1 class="display-5 fw-bold mt-3">Decentralized Finance & Crypto Workshop @ Scuola Normale Superiore</h1>
         <p class="lead">A Workshop on Decentralized Finance and Crypto at the Intersection of Academia and Industry.</p>
