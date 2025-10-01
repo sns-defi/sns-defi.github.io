@@ -9,8 +9,11 @@ permalink: /submission/
 <ul>
   <li>Decentralized Finance protocols and smart contracts;</li>
   <li>Decentralized Exchanges and Automated Market Makers;</li>
-  <li>Cryptocurrencies;</li>
-  <li>Agent-Based Models;</li>
+  <li>Liquidity provision, slippage and Maximal Extractable Value;</li>
+  <li>Risk modeling and systemic risk in Decentralized Finance;</li>
+  <li>Market microstructure of crypto exchanges (Centralized/Decentralized Exchanges);</li>
+  <li>Agent-based modeling, econophysics, complexity science, and network effects in crypto ecosystems;</li>
+  <li>Token economics, governance, NFTs and digital assets;</li>
   <li>Interaction between regulatory authorities, cryptocurrencies, and stablecoins.</li>
 </ul>
 <p> All submissions will undergo peer review by the Scientific Committee. At least one author of accepted papers must register. Please submit your work via the conference email: <a href="mailto:sns.defi@gmail.com">sns.defi@gmail.com</a>
