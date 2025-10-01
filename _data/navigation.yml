@@ -1,0 +1,14 @@
+- title: "Home"
+  url: /
+- title: "Program"
+  url: /program/
+- title: "Registration"
+  url: /registration/
+- title: "Paper Submission"
+  url: /submission/
+- title: "Venue"
+  url: /venue/
+- title: "Committee"
+  url: /committee/
+- title: "Invited Speakers"
+  url: /speakers/

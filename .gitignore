@@ -1,0 +1,8 @@
+# Ignore Windows alternate data streams Zone.Identifier (safety; Git usually can't store ADS anyway)
+*.Zone.Identifier
+*Zone.Identifier*
+:Zone.Identifier
+
+# Also ignore common OS cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,33 @@
+:root{
+  --sns-primary: #0d6efd;
+  --sns-accent: #8a2be2;
+  --sns-dark: #0b132b;
+}
+html, body { scroll-behavior: smooth; }
+.hero {
+  background: radial-gradient(1000px 500px at 10% -10%, rgba(138,43,226,.25), transparent 60%),
+              radial-gradient(800px 400px at 90% 0%, rgba(13,110,253,.2), transparent 50%);
+  border-radius: 1.25rem;
+}
+.badge-accent { background: var(--sns-accent); }
+.nav-link.active { font-weight: 600; }
+.card { border-radius: 1rem; }
+.section-title{
+  border-left: .25rem solid var(--sns-primary);
+  padding-left: .75rem;
+  margin-top: 1rem;
+}
+footer a { text-decoration: none; }
+.table-schedule th, .table-schedule td { vertical-align: middle; }
+
+/* Speaker avatar dimensions */
+.speaker-avatar {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+/* subtle glow to keep the logo readable on the dark gradient */
+.hero-logo {
+  filter: drop-shadow(0 4px 16px rgba(0,0,0,.25));
+}

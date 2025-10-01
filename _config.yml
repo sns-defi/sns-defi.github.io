@@ -1,0 +1,12 @@
+title: "DeFi & Crypto Conference — Scuola Normale Superiore, Pisa"
+description: "An upcoming conference on Decentralized Finance and Crypto hosted at Scuola Normale Superiore (Pisa)."
+url: ""    # set to your production URL, e.g. https://username.github.io
+baseurl: "" # set to /repo-name if using a project site
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+permalink: pretty
+timezone: Europe/Rome
+author:
+  name: "Organizing Committee"
