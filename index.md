@@ -8,9 +8,9 @@ title: "Homepage"
     <div class="row align-items-center">
       <div class="col-lg-8">
         <span class="badge text-bg-primary">Conference</span>
-        <span class="badge badge-accent ms-2 text-white">DeFi · Crypto</span>
-        <h1 class="display-5 fw-bold mt-3">Decentralized Finance & Crypto @ Scuola Normale Superiore</h1>
-        <p class="lead">A focused meeting at the intersection of finance, econophysics, cryptography, and complex systems.</p>
+        <!-- <span class="badge badge-accent ms-2 text-white">DeFi · Crypto</span> -->
+        <h1 class="display-5 fw-bold mt-3">Decentralized Finance & Crypto Workshop @ Scuola Normale Superiore</h1>
+        <p class="lead">A Workshop on Decentralized Finance and Crypto at the Intersection of Academia and Industry.</p>
         <ul class="list-unstyled">
           <li><strong>Date:</strong> <em>26/01/2026 - 28/01/2026</em></li>
           <li><strong>Location:</strong> Scuola Normale Superiore, Pisa (Italy)</li>
@@ -44,8 +44,7 @@ title: "Homepage"
 <section>
   <h2 class="section-title">About</h2>
   <p>
-    Welcome to DeFi Pisa 2025. Following a long tradition of interdisciplinary research, the Scuola Normale Superiore is proud to host this premier event at the intersection of computer science, economics, and finance. Our goal is to foster collaboration and spur innovation in this rapidly evolving field.
-    The conference will feature keynote addresses from world-renowned experts, peer-reviewed paper presentations, and interactive panel discussions on topics ranging from automated market makers and consensus mechanisms to regulatory challenges and the societal impact of decentralized systems.
+    The Scuola Normale Superiore is proud to host this premier event about Decentralized Finance (DeFi) and Crypto. Our goal is to foster collaboration and spur innovation in this rapidly evolving field, bringing together experts from both academia and industry.
   </p>
 </section>
 
