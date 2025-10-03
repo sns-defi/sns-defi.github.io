@@ -17,7 +17,15 @@ permalink: /registration/
 <ul>
   <li>Access to all sessions</li>
   <li>Coffee breaks and lunch</li>
-  <li>Conference materials</li>
+  <li>Social Dinner</li>
+  <li>NFT certifying your participation in the workshop</li>
+</ul>
+
+<h3 class="mt-4">What’s NOT included</h3>
+<ul>
+  <li>Travel</li>
+  <li>Accomodation</li>
+  <li>Everything not expressly specified</li>
 </ul>
 
 <h3>Visa Letters</h3>
