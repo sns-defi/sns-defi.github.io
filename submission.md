@@ -33,6 +33,3 @@ permalink: /submission/
   <li><a href="#" download>Word Template (coming soon)</a></li>
 </ul>
 -->
-
-<h3>Evaluation</h3>
-<p> At least one author of accepted papers must register.</p>
