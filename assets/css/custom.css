@@ -33,9 +33,11 @@ footer a { text-decoration: none; }
 }
 
 .sponsor-logo {
-  max-height: 120px;
+  height: clamp(60px, 12vw, 90px);
+  max-width: 240px;
   width: auto;
   object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .invited-speakers-list {
