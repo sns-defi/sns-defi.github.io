@@ -5,7 +5,7 @@ permalink: /venue/
 ---
 
 <h2 class="section-title">Venue</h2>
-<p>The conference will take place at <strong>Scuola Normale Superiore</strong>, Pisa, Italy.</p>
+<p>The conference will take place at <strong>Scuola Normale Superiore</strong> (Palazzo della Carovana), Pisa, Italy. All talks will be held in the <strong>Sala Azzurra</strong> (first floor). Coffee breaks and lunches will be served in the adjacent room. The poster session will take place in the cloister (ground floor).</p>
 
 <div class="row g-4">
   <div class="col-md-6">
