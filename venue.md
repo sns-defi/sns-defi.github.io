@@ -14,13 +14,24 @@ permalink: /venue/
       Piazza dei Cavalieri, 7<br>
       56126 Pisa PI, Italy
     </p>
-    <h3>Getting There</h3>
+    <h3>Getting to Pisa</h3>
+    <strong>By air:</strong>
     <ul>
-      <li><strong>By air:</strong> Pisa International Airport (PSA) with connections to the city center.</li>
-      <li><strong>By train:</strong> Pisa Centrale station, then bus or 20-minute walk to the venue.</li>
-      <li><strong>By taxi:</strong> ~10–15 minutes from airport or station depending on traffic.</li>
+      <li>The <strong>Airport of Pisa</strong> (Galileo Galilei International Airport, PSA) is near the city center, and it is served by major airlines with flights from Milan, Rome, London, Paris and many other Italian, European and international cities.</li>
+      <li>The <strong>Florence Airport</strong> (Firenze-Peretola Airport, FLR) is the next closest airport to the city of Pisa; it also has numerous connection to Italian, European and international cities. It is linked to the central train station (Santa Maria Novella) of Florence by shuttle buses and by train to Pisa. These trains leave approximately every twenty minutes. It takes about an hour to travel from Florence to Pisa.</li>
+      <li><strong>Other international airports</strong> that may be convenient are those of Rome (FCO) and Milan (MXP).</li>
     </ul>
   </div>
+  
+  <div class="col-md-6">
+    <h3>Getting to the Scuola Normale Superiore</h3>
+    <ul>
+      <li><strong>By bus:</strong> Scuola Normale can be reached from the Pisa Airport using city buses (Compagnia Toscana Trasporti): take the LAM rossa (red) bus, which directly connects the airport with the city centre. The “via Fermi” stop is the nearest to Scuola Normale.</li>
+      <li><strong>By train:</strong> The main station is “Pisa Centrale”, located in the city centre about 1 km from the Scuola Normale. Pisa is connected with all main European cities by train through Florence, Turin, Genoa or Rome (Trenitalia).</li>
+      <li><strong>By taxi:</strong> You can also take a taxi (CoTaPi); the trip from the airport to the Scuola Normale costs about €10. Tel.: (+39)050541600.</li>
+    </ul>
+  </div>
+  
   <div class="col-md-6">
     <div class="ratio ratio-4x3 rounded-4 overflow-hidden shadow-sm">
       <iframe
