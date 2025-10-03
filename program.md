@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Program"
+title: "Program (Sketch)"
 permalink: /program/
 ---
 
-<h2 class="section-title">Program</h2>
-<p class="mb-3">The conference runs from <strong>Monday 26 January 2026</strong> to <strong>Wednesday 28 January 2026</strong> at Scuola Normale Superiore, Pisa. All times are <strong>CET (UTC+1)</strong>.</p>
+<h2 class="section-title">Program (Sketch)</h2>
+<p class="mb-3">The conference runs from <strong>Monday 26 January 2026</strong> to <strong>Wednesday 28 January 2026</strong> at Scuola Normale Superiore, Pisa. All times are <strong>CET (UTC+1)</strong>. All talks will be held in the <strong>Sala Azzurra</strong> (first floor). Coffee breaks and lunches will be served in the adjacent room. The poster session will take place in the cloister (ground floor).</p>
 
 <nav class="mb-4">
   <div class="btn-group" role="group" aria-label="Day navigation">
@@ -21,17 +21,13 @@ permalink: /program/
     <tr><th style="width: 140px;">Time</th><th>Session</th><th>Details</th></tr>
   </thead>
   <tbody>
-    <tr><td>08:30–09:15</td><td>Registration & Coffee</td><td>Welcome desk opens</td></tr>
-    <tr><td>09:15–09:30</td><td>Opening Remarks</td><td>Organizing Committee</td></tr>
-    <tr><td>09:30–10:15</td><td>Keynote 1</td><td><em>TBD</em></td></tr>
-    <tr><td>10:15–11:15</td><td>Session A</td><td>AMMs and Liquidity Provision</td></tr>
-    <tr><td>11:15–11:30</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>11:30–12:30</td><td>Session B</td><td>Crypto Market Microstructure (CEX/DEX)</td></tr>
-    <tr><td>12:30–14:00</td><td>Lunch</td><td></td></tr>
-    <tr><td>14:00–15:00</td><td>Session C</td><td>Stablecoins & Payment Rails</td></tr>
-    <tr><td>15:00–15:15</td><td>Break</td><td></td></tr>
-    <tr><td>15:15–16:30</td><td>Panel 1</td><td>Regulation, DeFi Risk, and Market Integrity</td></tr>
-    <tr><td>16:30–18:00</td><td>Posters & Demos</td><td>Networking session</td></tr>
+    <!-- EXAMPLE OF ROW <tr><td>14:00–15:00</td><td>Session C OPPURE Panel 1 OPPURE Posters Session</td><td>Stablecoins & Payment Rails</td></tr>-->
+    <tr><td>14:00–14:30</td><td>Registration</td><td>Welcome desk opens</td></tr>
+    <tr><td>14:30–14:40</td><td>Opening Remarks</td><td></td></tr>
+    <tr><td>14:40–15:00</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>15:00–15:15</td><td>Coffee Break</td><td></td></tr>
+    <tr><td>15:15–16:30</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>16:30–18:00</td><td>Session</td><td><em>TBD</em></td></tr>
   </tbody>
 </table>
 
@@ -41,16 +37,16 @@ permalink: /program/
     <tr><th style="width: 140px;">Time</th><th>Session</th><th>Details</th></tr>
   </thead>
   <tbody>
-    <tr><td>09:00–10:00</td><td>Keynote 2</td><td><em>TBD</em></td></tr>
-    <tr><td>10:00–11:00</td><td>Session D</td><td>DeFi Risk & Systemic Stability</td></tr>
+    <tr><td>09:00–10:00</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>10:00–11:00</td><td>Session</td><td><em>TBD</em></td></tr>
     <tr><td>11:00–11:15</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>11:15–12:15</td><td>Session E</td><td>Governance & Tokenomics</td></tr>
+    <tr><td>11:15–12:15</td><td>Session</td><td><em>TBD</em></td></tr>
     <tr><td>12:15–14:00</td><td>Lunch</td><td></td></tr>
-    <tr><td>14:00–15:00</td><td>Session F</td><td>MEV, Slippage & Market Quality</td></tr>
-    <tr><td>15:00–15:15</td><td>Break</td><td></td></tr>
-    <tr><td>15:15–16:15</td><td>Session G</td><td>Agent‑Based Models & Econophysics</td></tr>
-    <tr><td>16:15–17:00</td><td>Industry Fireside</td><td>Practitioner perspectives</td></tr>
-    <tr><td>19:00–22:00</td><td>Social Dinner</td><td>Optional; location TBA</td></tr>
+    <tr><td>14:00–15:00</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>15:00–15:15</td><td>Coffee Break</td><td></td></tr>
+    <tr><td>15:15–16:15</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>16:15–17:00</td><td>Poster Session</td><td><em>TBD</em></td></tr>
+    <tr><td>19:00–22:00</td><td>Social Dinner</td><td><em>TBD</em></td></tr>
   </tbody>
 </table>
 
@@ -60,15 +56,11 @@ permalink: /program/
     <tr><th style="width: 140px;">Time</th><th>Session</th><th>Details</th></tr>
   </thead>
   <tbody>
-    <tr><td>09:00–09:45</td><td>Keynote 3</td><td><em>TBD</em></td></tr>
-    <tr><td>09:45–10:45</td><td>Session H</td><td>Security, Smart Contracts & Auditing</td></tr>
+    <tr><td>09:00–09:45</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>09:45–10:45</td><td>Session</td><td><em>TBD</em></td></tr>
     <tr><td>10:45–11:00</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>11:00–12:00</td><td>Session I</td><td>Networks, Contagion & Systemic Risk</td></tr>
-    <tr><td>12:00–13:30</td><td>Lunch</td><td></td></tr>
-    <tr><td>13:30–14:30</td><td>Session J</td><td>Data, Methods & Reproducibility</td></tr>
-    <tr><td>14:30–15:00</td><td>Break</td><td></td></tr>
-    <tr><td>15:00–16:00</td><td>Closing Keynote</td><td><em>TBD</em></td></tr>
-    <tr><td>16:00–16:30</td><td>Best Paper & Closing</td><td>Awards & wrap‑up</td></tr>
+    <tr><td>11:00–12:00</td><td>Session</td><td><em>TBD</em></td></tr>
+    <tr><td>12:00–12:30</td><td>Closing Remarks</td><td></td></tr>
   </tbody>
 </table>
 
