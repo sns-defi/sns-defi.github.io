@@ -46,6 +46,7 @@ title: "Homepage"
   <p>
     The Scuola Normale Superiore is proud to host this premier event dedicated to Decentralized Finance (DeFi) and Crypto, bringing together leading voices from academia and industry to foster collaboration and spark innovation. Alongside discussions on the policy, technology, and market forces shaping the crypto ecosystem, the workshop shines a light on topics such as automated market makers, liquidity provision, and MEV; risk modeling and systemic fragility in DeFi; microstructure of centralized and decentralized exchanges; price discovery and volatility; token governance, NFTs and digital assets; stablecoins and emerging payment rails; and agent-based modeling, econophysics, and network effects in complex crypto systems.
   </p>
+  Conference email: <p>Email: <a href="mailto:sns-defi@gmail.com">sns-defi@gmail.com</a></p>
 </section>
 
 <section class="mt-5">

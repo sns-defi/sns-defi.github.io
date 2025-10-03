@@ -33,7 +33,7 @@ footer a { text-decoration: none; }
 }
 
 .sponsor-logo {
-  max-height: 72px;
+  max-height: 120px;
   width: auto;
   object-fit: contain;
 }
