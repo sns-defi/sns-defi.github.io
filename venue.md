@@ -23,13 +23,13 @@ permalink: /venue/
       <li>The <strong>Florence Airport</strong> (Firenze-Peretola Airport, FLR) is the next closest airport to the city of Pisa; it also has numerous connection to Italian, European and international cities. It is linked to the central train station (Santa Maria Novella) of Florence by shuttle buses and by train to Pisa. These trains leave approximately every twenty minutes. It takes about an hour to travel from Florence to Pisa.</li>
       <li><strong>Other international airports</strong> that may be convenient are those of Rome (FCO) and Milan (MXP).</li>
     </ul>
-  </div>
     <h3>Getting to the Scuola Normale Superiore</h3>
     <ul>
       <li><strong>By bus:</strong> Scuola Normale can be reached from the Pisa Airport using city buses (Compagnia Toscana Trasporti): take the LAM rossa (red) bus, which directly connects the airport with the city centre. The “via Fermi” stop is the nearest to Scuola Normale.</li>
       <li><strong>By train:</strong> The main station is “Pisa Centrale”, located in the city centre about 1 km from the Scuola Normale. Pisa is connected with all main European cities by train through Florence, Turin, Genoa or Rome (Trenitalia).</li>
       <li><strong>By taxi:</strong> You can also take a taxi (CoTaPi); the trip from the airport to the Scuola Normale costs about €10. Tel.: (+39)050541600.</li>
     </ul>
+  </div>
   
   <div class="col-md-6">
     <div class="ratio ratio-4x3 rounded-4 overflow-hidden shadow-sm">
@@ -49,13 +49,13 @@ permalink: /venue/
     <li>Grand Hotel Duomo (Tel: (+39) 050.561.894 / (+39) 050.82.50.88 – Fax: (+39) 050.560.418 – e-mail: <a href="mailto:info@grandhotelduomo.it">info@grandhotelduomo.it</a>)</li>
     <li>Relais I Miracoli - B&B Residenza d’Epoca (Tel: (+39) 050 560572 – Fax: (+39) 050 8310034 e-mail: <a href="mailto:info@relaisimiracoli.it">info@relaisimiracoli.it</a>)</li></ul></li>
   <li><strong>3 stars Hotels</strong> <ul>
-    <li>Hotel Novecento (Tel. +39 050 500323 – Fax +39 050 9910280 – e-mail: <a href="mailto:info@hotelnovecento.pisa.it">info@hotelnovecento.pisa.it</a>)</li>
-    <li>Hotel Verdi (Tel: +39 050 598.947/53/54 – Fax: +39 050 598.944 – e-mail: <a href="mailto:info@verdihotel.it">info@verdihotel.it</a>)</li>
-    <li>Hotel Villa Kinzica (Tel. +39 050 560419-Fax.+39 050 551204 email: <a href="mailto:info@hotelvillakinzica.com">info@hotelvillakinzica.com</a>)</li>
-    <li>Hotel Touring (Tel +39 050 46374 – fax +39 050 502148 – e-mail: <a href="mailto:info@hoteltouringpisa.com">info@hoteltouringpisa.com</a>)</li></ul></li>
+    <li>Hotel Novecento (Tel: (+39) 050 500323 – Fax: (+39) 050 9910280 – e-mail: <a href="mailto:info@hotelnovecento.pisa.it">info@hotelnovecento.pisa.it</a>)</li>
+    <li>Hotel Verdi (Tel: (+39) 050 598.947/53/54 – Fax: (+39) 050 598.944 – e-mail: <a href="mailto:info@verdihotel.it">info@verdihotel.it</a>)</li>
+    <li>Hotel Villa Kinzica (Tel: (+39) 050 560419-Fax: (+39) 050 551204 - e-mail: <a href="mailto:info@hotelvillakinzica.com">info@hotelvillakinzica.com</a>)</li>
+    <li>Hotel Touring (Tel: (+39) 050 46374 – Fax: (+39) 050 502148 – e-mail: <a href="mailto:info@hoteltouringpisa.com">info@hoteltouringpisa.com</a>)</li></ul></li>
   <li><strong>2 stars Hotels</strong> <ul>
-    <li>B&B Casa San Tommaso ( Tel: +39 050 830782 – Fax: +39050 830782 – e-mail: <a href="mailto:san.tommaso@alice.it">san.tommaso@alice.it</a>)</li>
-    <li>B&B Borgolargo 51(Tel: +39050 578432 – 348 0666142 – e-mail: <a href="mailto:info@borgolargo51.com">info@borgolargo51.com</a>)</li>
-    <li>Residence Isola Verde (Tel:+39 050 575711 – Fax: +39 050 315519 – e-mail: <a href="mailto:residence@isolaverde.com">residence@isolaverde.com</a> )</li>
-    <li>Relais Sassetti (Tel: +39 050 576255 Mobile: +39 329 8770611- Mobile: (+39) 339 5891748-Fax: (+39) 050 3869384- e-mail: <a href="mailto:info@relaissassetti.it">info@relaissassetti.it</a>)</li></ul></li>
+    <li>B&B Casa San Tommaso ( Tel: (+39) 050 830782 – Fax: (+39) 050 830782 – e-mail: <a href="mailto:san.tommaso@alice.it">san.tommaso@alice.it</a>)</li>
+    <li>B&B Borgolargo 51(Tel: (+39) 050 578432 – (+39) 348 0666142 – e-mail: <a href="mailto:info@borgolargo51.com">info@borgolargo51.com</a>)</li>
+    <li>Residence Isola Verde (Tel: (+39) 050 575711 – Fax: (+39) 050 315519 – e-mail: <a href="mailto:residence@isolaverde.com">residence@isolaverde.com</a> )</li>
+    <li>Relais Sassetti (Tel: (+39) 050 576255 Mobile: (+39) 329 8770611- Mobile: (+39) 339 5891748-Fax: (+39) 050 3869384- e-mail: <a href="mailto:info@relaissassetti.it">info@relaissassetti.it</a>)</li></ul></li>
 </ul>
