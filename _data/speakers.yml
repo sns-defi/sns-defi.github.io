@@ -1,11 +1,34 @@
-- name: "Topo Gigio"
-  affiliation: "I Nostri Cuori"
-  image: "/assets/img/speakers/topo_gigio.jpg"
-  email: "topo.gigio@gmail.com"
-  website: "https://topo-gigio.org"
+- name: "Fayçal Drissi"
+  affiliation: "University of Oxford"
+  image: "/assets/img/speakers/drissi.png"
+#  email: "topo.gigio@gmail.com"
+#  website: "https://topo-gigio.org"
   bio: |
-    Topo Gigio’s research focuses on AMMs, liquidity provision,
-    and market quality in DEXs. He leads the Crypto Markets Lab at SNS.
+    <em>TBD</em>
+    
+- name: "Sebastian Jaimungal"
+  affiliation: "University of Toronto"
+  image: "/assets/img/speakers/jaimungal.jpg"
+#  email: "topo.gigio@gmail.com"
+#  website: "https://topo-gigio.org"
+  bio: |
+    <em>TBD</em>.
+    
+- name: "<em>TBA</em>"
+  affiliation: "CONSOB: Italian Companies and Exchange Commission"
+  image: "/assets/img/speakers/topo_gigio.jpg"
+#  email: "topo.gigio@gmail.com"
+#  website: "https://topo-gigio.org"
+  bio: |
+    <em>TBD</em>.
+    
+- name: "<em>TBA</em>"
+  affiliation: ""
+  image: "/assets/img/speakers/topo_gigio.jpg"
+#  email: "topo.gigio@gmail.com"
+#  website: "https://topo-gigio.org"
+  bio: |
+    <em>TBD</em>.
 
 # - name: "Ben Chen"
 #   affiliation: "University of Somewhere"
