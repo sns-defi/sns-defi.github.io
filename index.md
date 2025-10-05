@@ -79,3 +79,19 @@ title: "Homepage"
     <p class="text-muted">Speaker lineup coming soon.</p>
   {% endif %}
 </section>
+
+<section class="mt-5">
+  <h2 class="section-title">Invited Speakers New</h2>
+  {% assign homepage_speakers_new = site.data.speakers_new | default: empty %}
+  {% if homepage_speakers_new and homepage_speakers_new != empty %}
+    <ul class="invited-speakers-list">
+      {% for speaker_new in homepage_speakers_new %}
+        <li>
+          <strong>{{ speaker_new.name }}</strong>{% if speaker_new.affiliation %}, {{ speaker_new.affiliation }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="text-muted">Speaker New lineup coming soon.</p>
+  {% endif %}
+</section>
