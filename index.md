@@ -79,3 +79,22 @@ title: "Homepage"
     <p class="text-muted">Speaker lineup coming soon.</p>
   {% endif %}
 </section>
+
+<section class="mt-5">
+  <h2 class="section-title">Important Dates</h2>
+  {% assign homepage_deadlines = site.data.deadlines | default: empty %}
+  {% if homepage_deadlines and homepage_deadlines != empty %}
+    <ul class="deadlines-list">
+      {% for deadline in homepage_deadlines %}
+        <li>
+          <!--<strong>{{ deadline.name }}</strong>-->
+           {{ deadline.name }}: <strong>{{ deadline.date }}</strong>
+        </li>
+      {% endfor %}
+        <!--<li>Paper/Extended Abstract Submission Deadline: <strong>2025-12-01</strong></li>-->
+      <!--<li><strong>Submission site:</strong> <a href="#" target="_blank" rel="noopener">EasyChair (coming soon)</a></li>-->
+    </ul>
+  {% else %}
+    <p class="text-muted">Deadlines lineup coming soon.</p>
+  {% endif %}
+</section>
