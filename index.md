@@ -7,10 +7,10 @@ title: "Homepage"
   <div class="container py-4">
     <div class="row align-items-center">
       <div class="col-lg-8">
-        <span class="badge text-bg-primary">Conference</span>
-        <span class="badge badge-accent ms-2 text-white">DeFi · Crypto</span>
-        <h1 class="display-5 fw-bold mt-3">Decentralized Finance & Crypto @ Scuola Normale Superiore</h1>
-        <p class="lead">A focused meeting at the intersection of finance, econophysics, cryptography, and complex systems.</p>
+        <!-- <span class="badge text-bg-primary">Conference</span> -->
+        <!-- <span class="badge badge-accent ms-2 text-white">DeFi · Crypto</span> -->
+        <h1 class="display-5 fw-bold mt-3">Decentralized Finance & Crypto Workshop @ Scuola Normale Superiore</h1>
+        <p class="lead">A Workshop on Decentralized Finance and Crypto at the Intersection of Academia and Industry.</p>
         <ul class="list-unstyled">
           <li><strong>Date:</strong> <em>26/01/2026 - 28/01/2026</em></li>
           <li><strong>Location:</strong> Scuola Normale Superiore, Pisa (Italy)</li>
@@ -44,25 +44,38 @@ title: "Homepage"
 <section>
   <h2 class="section-title">About</h2>
   <p>
-    Welcome to DeFi Pisa 2025. Following a long tradition of interdisciplinary research, the Scuola Normale Superiore is proud to host this premier event at the intersection of computer science, economics, and finance. Our goal is to foster collaboration and spur innovation in this rapidly evolving field.
-    The conference will feature keynote addresses from world-renowned experts, peer-reviewed paper presentations, and interactive panel discussions on topics ranging from automated market makers and consensus mechanisms to regulatory challenges and the societal impact of decentralized systems.
+    The Scuola Normale Superiore is proud to host this premier event dedicated to Decentralized Finance (DeFi) and Crypto, bringing together leading voices from academia and industry to foster collaboration and spark innovation. Alongside discussions on the policy, technology, and market forces shaping the crypto ecosystem, the workshop shines a light on topics such as automated market makers, liquidity provision, and MEV; risk modeling and systemic fragility in DeFi; microstructure of centralized and decentralized exchanges; price discovery and volatility; token governance, NFTs and digital assets; stablecoins and emerging payment rails; and agent-based modeling, econophysics, and network effects in complex crypto systems.
   </p>
+  Conference email: <p>Email: <a href="mailto:sns-defi@gmail.com">sns-defi@gmail.com</a></p>
 </section>
 
-<section class="mt-4">
-  <h2 class="section-title">Topics of Interest</h2>
-  <div class="row row-cols-1 row-cols-md-2 g-3">
-    <div class="col"><div class="card h-100"><div class="card-body">
-      AMMs, liquidity provision, slippage and MEV; risk modeling and systemic risk in DeFi.
-    </div></div></div>
-    <div class="col"><div class="card h-100"><div class="card-body">
-      Market microstructure of crypto exchanges (CEX/DEX); price discovery and volatility.
-    </div></div></div>
-    <div class="col"><div class="card h-100"><div class="card-body">
-      Token economics, governance, NFTs and digital assets; stablecoins and payment rails.
-    </div></div></div>
-    <div class="col"><div class="card h-100"><div class="card-body">
-      Agent-based modeling, econophysics, complexity science, and network effects in crypto ecosystems.
-    </div></div></div>
+<section class="mt-5">
+  <h2 class="section-title">Sponsors</h2>
+  <p class="text-muted">We thank our sponsors for their support.</p>
+  <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
+    <img
+      src="{{ '/assets/img/prin.png' | relative_url }}"
+      alt="PRIN"
+      class="sponsor-logo">
+    <img
+      src="{{ '/assets/img/logo_unibo.png' | relative_url }}"
+      alt="University of Bologna"
+      class="sponsor-logo">
   </div>
+</section>
+
+<section class="mt-5">
+  <h2 class="section-title">Invited Speakers</h2>
+  {% assign homepage_speakers = site.data.speakers | default: empty %}
+  {% if homepage_speakers and homepage_speakers != empty %}
+    <ul class="invited-speakers-list">
+      {% for speaker in homepage_speakers %}
+        <li>
+          <strong>{{ speaker.name }}</strong>{% if speaker.affiliation %}, {{ speaker.affiliation }}{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="text-muted">Speaker lineup coming soon.</p>
+  {% endif %}
 </section>

@@ -25,4 +25,4 @@ permalink: /committee/
 </ul> -->
 
 <h2 class="section-title">Contact</h2>
-<p>Email: <a href="mailto:info@example.org">info@example.org</a></p>
+<p>Email: <a href="mailto:sns-defi@gmail.com">sns-defi@gmail.com</a></p>
