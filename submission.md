@@ -23,7 +23,7 @@ permalink: /submission/
 {% if deadlines and deadlines != empty %}
   <ul>
     {% for deadline in deadlines %}
-      <li>{{ speaker.name }}<strong>{{ speaker.date }}</strong></li>
+      <li>{{ deadline.name }}: <strong>{{ deadline.date }}</strong></li>
       <!--<li>Paper/Extended Abstract Submission Deadline: <strong>2025-12-01</strong></li>-->
     <!--<li><strong>Submission site:</strong> <a href="#" target="_blank" rel="noopener">EasyChair (coming soon)</a></li>-->
   </ul>
