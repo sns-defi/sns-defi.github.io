@@ -19,12 +19,21 @@ permalink: /submission/
 <p> All submissions will undergo peer review by the Scientific Committee. At least one author of accepted papers must register. Please submit your work via the conference email: <a href="mailto:sns.defi@gmail.com">sns.defi@gmail.com</a>
 
 <h3>Important Dates</h3>
-<ul>
-  <li>Paper/Extended Abstract Submission Deadline: <strong>2025-12-01</strong></li>
-  <li>Notification of Acceptance: <strong>2025-12-15</strong></li>
-  <li>Registration Deadline: <strong>2026-01-15</strong></li>
-  <!--<li><strong>Submission site:</strong> <a href="#" target="_blank" rel="noopener">EasyChair (coming soon)</a></li>-->
-</ul>
+{% assign homepage_deadlines = site.data.deadlines | default: empty %}
+{% if homepage_deadlines and homepage_deadlines != empty %}
+  <ul class="deadlines-list">
+    {% for deadline in homepage_deadlines %}
+      <li>
+        <!--<strong>{{ deadline.name }}</strong>-->
+         {{ deadline.name }}: <strong>{{ deadline.date }}</strong>-->
+      </li>
+    {% endfor %}
+      <!--<li>Paper/Extended Abstract Submission Deadline: <strong>2025-12-01</strong></li>-->
+    <!--<li><strong>Submission site:</strong> <a href="#" target="_blank" rel="noopener">EasyChair (coming soon)</a></li>-->
+  </ul>
+{% else %}
+  <p class="text-muted">Deadlines lineup coming soon.</p>
+{% endif %}
 
 
 <!--
