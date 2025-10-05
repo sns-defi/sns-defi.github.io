@@ -18,7 +18,7 @@ permalink: /submission/
 </ul>
 <p> All submissions will undergo peer review by the Scientific Committee. At least one author of accepted papers must register. Please submit your work via the conference email: <a href="mailto:sns.defi@gmail.com">sns.defi@gmail.com</a>
 
-<h3>Important Dates</h3>
+<h2 class="section-title">Important Dates</h2>
 {% assign homepage_deadlines = site.data.deadlines | default: empty %}
 {% if homepage_deadlines and homepage_deadlines != empty %}
   <ul class="deadlines-list">
