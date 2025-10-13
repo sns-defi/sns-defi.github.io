@@ -48,3 +48,10 @@ footer a { text-decoration: none; }
 .invited-speakers-list li + li {
   margin-top: .35rem;
 }
+
+/* Added to fade as scroll */
+.navbar {
+  transition: opacity 0.3s ease;
+  will-change: opacity, transform;
+}
+/* Finish */
