@@ -50,21 +50,6 @@ title: "Homepage"
 </section>
 
 <section class="mt-5">
-  <h2 class="section-title">Sponsors</h2>
-  <p class="text-muted">We thank our sponsors for their support.</p>
-  <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
-    <img
-      src="{{ '/assets/img/prin.png' | relative_url }}"
-      alt="PRIN"
-      class="sponsor-logo">
-    <img
-      src="{{ '/assets/img/logo_unibo.png' | relative_url }}"
-      alt="University of Bologna"
-      class="sponsor-logo">
-  </div>
-</section>
-
-<section class="mt-5">
   <h2 class="section-title">Invited Speakers</h2>
   {% assign homepage_speakers = site.data.speakers | default: empty %}
   {% if homepage_speakers and homepage_speakers != empty %}
@@ -97,4 +82,19 @@ title: "Homepage"
   {% else %}
     <p class="text-muted">Deadlines lineup coming soon.</p>
   {% endif %}
+</section>
+
+<section class="mt-5">
+  <h2 class="section-title">Sponsors</h2>
+  <p class="text-muted">We thank our sponsors for their support.</p>
+  <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
+    <img
+      src="{{ '/assets/img/prin.png' | relative_url }}"
+      alt="PRIN"
+      class="sponsor-logo">
+    <img
+      src="{{ '/assets/img/logo_unibo.png' | relative_url }}"
+      alt="University of Bologna"
+      class="sponsor-logo">
+  </div>
 </section>
