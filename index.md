@@ -94,12 +94,12 @@ title: "Homepage"
     <img
       src="{{ '/assets/img/Logo_SoBigData it.svg' | relative_url }}"
       alt="SoBigData"
-      height="42"
+      height="80"
       class="sponsor-logo">
     <img
       src="{{ '/assets/img/prin.png' | relative_url }}"
       alt="PRIN"
-      height="42"
+      height="100"
       class="sponsor-logo">
     <img
       src="{{ '/assets/img/logo_unibo.png' | relative_url }}"
