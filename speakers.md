@@ -23,11 +23,16 @@ permalink: /speakers/
             </div>
             <div class="col">
               <div class="card-body">
-                <h3 class="h5 mb-1">{{ s.name }}</h3>
-                <!--{% if s.affiliation %}<p class="text-muted mb-2">{{ s.affiliation }}</p>{% endif %}
+                <!--<h3 class="h5 mb-1">{{ s.name }}</h3>
+                {% if s.affiliation %}<p class="text-muted mb-2">{{ s.affiliation }}</p>{% endif %}
                 {% if s.affiliation2 %}<p class="text-muted mb-2">{{ s.affiliation2 }}</p>{% endif %}-->
-                {% if s.affiliation %}<p class="text-muted m-0 mb-1">{{ s.affiliation }}</p>{% endif %}
-                {% if s.affiliation2 %}<p class="text-muted m-0">{{ s.affiliation2 }}</p>{% endif %}
+                <h3 class="h5 mb-1">{{ s.name }}</h3>
+                {% if s.affiliation %}<p class="text-muted mb-2">{{ s.affiliation }} {% if s.affiliation2 %} <br> {{ s.affiliation2 }} {% endif %} </p>{% endif %}
+                <!--<p class="mb-2">
+                  <strong>{{ s.name }}</strong><br>
+                  {% if s.affiliation %}{{ s.affiliation }}<br>{% endif %}
+                  {% if s.affiliation2 %}{{ s.affiliation2 }}{% endif %}
+                </p>-->
                 {% if s.bio %}<p class="mb-3">{{ s.bio }}</p>{% endif %}
                 <div class="d-flex gap-2 flex-wrap">
                   {% if s.email %}
