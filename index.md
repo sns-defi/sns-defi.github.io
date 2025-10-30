@@ -56,7 +56,7 @@ title: "Homepage"
     <ul class="invited-speakers-list">
       {% for speaker in homepage_speakers %}
         <li>
-          <strong>{{ speaker.name }}</strong>{% if speaker.affiliation %}, {{ speaker.affiliation }}{% endif %}{% if speaker.affiliation2 %}, & {{ speaker.affiliation2 }}{% endif %}
+          <strong>{{ speaker.name }}</strong>{% if speaker.affiliation %}, {{ speaker.affiliation }}{% endif %}{% if speaker.affiliation2 %} & {{ speaker.affiliation2 }}{% endif %}
         </li>
       {% endfor %}
     </ul>
