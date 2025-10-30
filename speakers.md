@@ -25,6 +25,7 @@ permalink: /speakers/
               <div class="card-body">
                 <h3 class="h5 mb-1">{{ s.name }}</h3>
                 {% if s.affiliation %}<p class="text-muted mb-2">{{ s.affiliation }}</p>{% endif %}
+                {% if s.affiliation2 %}<p class="text-muted mb-2">{{ s.affiliation2 }}</p>{% endif %}
                 {% if s.bio %}<p class="mb-3">{{ s.bio }}</p>{% endif %}
                 <div class="d-flex gap-2 flex-wrap">
                   {% if s.email %}
