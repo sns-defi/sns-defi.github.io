@@ -18,9 +18,9 @@
     
 - name: "Sebastian Jaimungal"
   affiliation: >
-    "University of Toronto
+    University of Toronto\n
     Oxford-Man Institute for Quantitative Finance"
-  image: "/assets/img/speakers/jaimungal.jpg"
+  image: "/assets/img/speakers/jaimungal.jpg
   bio: |
     <em>TBD</em>.
     
