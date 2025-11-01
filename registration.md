@@ -5,13 +5,12 @@ permalink: /registration/
 ---
 
 <h2 class="section-title">Registration</h2>
-<p>Registration is required for all attendees. Fees and waivers will be announced shortly.</p>
+<p>The School will be held in person only, and the number of participants is limited.
+  Applications will be evaluated based on the Resume/CV provided during registration, following a first-come, first-served policy. Each application will be reviewed within a few days of submission.</p>
+  
+<p>Participation in the School requires a registration fee of 50 EUR, intended to mitigate the risk of non-attendance. Payment details will be provided upon acceptance.</p>
 
-<div class="alert alert-info" role="alert">
-  <strong>Heads up:</strong> Early-bird and student rates will be available. Limited travel grants may be offered.
-</div>
-
-<a class="btn btn-primary btn-lg" href="#" role="button">Register (coming soon)</a>
+<a class="btn btn-primary btn-lg" href="#" role="button">To apply, please email <a href="mailto:sns.defi@gmail.com">sns.defi@gmail.com</a> with your Resume/CV attached.</a>
 
 <h3 class="mt-4">What’s included</h3>
 <ul>
