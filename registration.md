@@ -10,7 +10,13 @@ permalink: /registration/
   
 <p>Participation in the School requires a registration fee of 50 EUR, intended to mitigate the risk of non-attendance. Payment details will be provided upon acceptance.</p>
 
-<a class="btn btn-primary btn-lg" href="#" role="button">To apply, please email sns.defi@gmail.com with your Resume/CV attached.</a>
+<div class="alert alert-info" role="alert">
+  <strong>Heads up:</strong> To apply, please email sns.defi@gmail.com with your Resume/CV attached.
+</div>
+
+<div class="alert alert-info" role="alert">
+  To apply, please email sns.defi@gmail.com with your Resume/CV attached.
+</div>
 
 <h3 class="mt-4">What’s included</h3>
 <ul>
