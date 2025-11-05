@@ -1,11 +1,12 @@
 title: "DeFi & Crypto Conference"
 description: "26-28 January 2026 — Scuola Normale Superiore, Pisa."
-url: ""    # set to your production URL, e.g. https://username.github.io
+url: "https://sns-defi.github.io"
 baseurl: "" # set to /repo-name if using a project site
 markdown: kramdown
 theme: null
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 permalink: pretty
 timezone: Europe/Rome
 author:
