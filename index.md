@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Homepage"
+permalink: /
 ---
 
 <div class="p-4 p-md-5 mb-4 hero">

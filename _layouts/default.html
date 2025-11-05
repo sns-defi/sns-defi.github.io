@@ -3,13 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+
     {% seo %}
+
+    <!-- Fallback (safe even if duplicated): -->
+    {% if site.google_site_verification %}
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+    {% endif %}
+    {% if site.bing_site_verification %}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+    {% endif %}
+
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/darkly/bootstrap.min.css" rel="stylesheet">
     <link href="{{ '/assets/css/custom.css' | relative_url }}" rel="stylesheet">
     <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
   </head>
-  
+
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
       <div class="container">
