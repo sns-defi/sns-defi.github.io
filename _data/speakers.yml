@@ -31,9 +31,10 @@
     
 - name: "Antonio Russo"
   affiliation: "Head of the Cash and Derivatives Market Operations Office (CONSOB)"
+  affiliation2: "The talk will be delivered in an individual capacity"
   image: "/assets/img/speakers/russo.png"
   bio: |
-    <em>DeFi and Crypto-Assets under the MiCA Framework: New Frontiers and Challenges for Financial Supervision</em>
+    <em>DeFi and Crypto-Assets under the MiCA Framework: New Frontiers and Challenges for Financial Supervision.</em>
     
 - name: "Christof Ferreira Torres"
   affiliation: "University of Lisbon"
