@@ -95,6 +95,7 @@ permalink: /
   <h2 class="section-title">Sponsors</h2>
   <p class="text-muted">We gratefully acknowledge the contribution of various sponsors for financial support. In particular, the Workshop is supported by:</p>
   <ul class="sponsors-list">
+    <li>PRIN2022 DD N. 104 of February 2, 2022 ”Liquidity and systemic risks in centralized and decentralized markets”, codice proposta 20227TCX5W - CUP J53D23004130006 funded by the European Union NextGenerationEU through the Piano Nazionale di Ripresa e Resilienza (PNRR).</li>
     <li>SoBigData.it receives funding from European Union – NextGenerationEU – National Recovery and Resilience Plan (Piano Nazionale di Ripresa e Resilienza, PNRR) – Project: “SoBigData.it – Strengthening the Italian RI for Social Mining and Big Data Analytics” – CUP B53C22001760006 – Prot. IR0000013 – Avviso n. 3264 del 28/12/2021.</li>
   </ul>
   <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
