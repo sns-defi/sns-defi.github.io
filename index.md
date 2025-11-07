@@ -31,10 +31,15 @@ permalink: /
             style="max-height: 180px; object-fit: contain;">
           <h2 class="h5 mb-3">Important Dates</h2>
           <ul class="list-unstyled mb-0">
-            <li><strong>Paper submission opens:</strong> 2025-11-01</li>
+            {% for deadline in homepage_deadlines %}
+              <li>
+                <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
+              </li>
+            {% endfor %}
+            <!-- <li><strong>Paper submission opens:</strong> 2025-11-01</li>
             <li><strong>Submission deadline:</strong> 2025-12-01</li>
             <li><strong>Notification to authors:</strong> 2025-12-15</li>
-            <li><strong>Registration deadline:</strong> 2026-01-15</li>
+            <li><strong>Registration deadline:</strong> 2026-01-15</li> -->
           </ul>
         </div>
       </div>
