@@ -18,7 +18,8 @@ permalink: /
         </ul>
         <div class="d-flex gap-2 mt-3">
           <a class="btn btn-primary btn-lg" href="{{ '/registration/' | relative_url }}">Register</a>
-          <a class="btn btn-outline-primary btn-lg" href="{{ '/submission/' | relative_url }}">Submit a Paper</a>
+          <a class="btn btn-primary btn-lg" href="{{ '/submission/' | relative_url }}">Submit a Paper</a>
+          <!-- <a class="btn btn-outline-primary btn-lg" href="{{ '/submission/' | relative_url }}">Submit a Paper</a> -->
           <!--<a class="btn btn-outline-secondary btn-lg" href="{{ '/program/' | relative_url }}">See Program</a>-->
         </div>
       </div>
@@ -31,10 +32,15 @@ permalink: /
             style="max-height: 180px; object-fit: contain;">
           <h2 class="h5 mb-3">Important Dates</h2>
           <ul class="list-unstyled mb-0">
-            <li><strong>Paper submission opens:</strong> 2025-11-01</li>
+            {% for deadline in homepage_deadlines %}
+              <li>
+                <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
+              </li>
+            {% endfor %}
+            <!-- <li><strong>Paper submission opens:</strong> 2025-11-01</li>
             <li><strong>Submission deadline:</strong> 2025-12-01</li>
             <li><strong>Notification to authors:</strong> 2025-12-15</li>
-            <li><strong>Registration deadline:</strong> 2026-01-15</li>
+            <li><strong>Registration deadline:</strong> 2026-01-15</li> -->
           </ul>
         </div>
       </div>
@@ -89,6 +95,7 @@ permalink: /
   <h2 class="section-title">Sponsors</h2>
   <p class="text-muted">We gratefully acknowledge the contribution of various sponsors for financial support. In particular, the Workshop is supported by:</p>
   <ul class="sponsors-list">
+    <li>PRIN2022 DD N. 104 of February 2, 2022 ”Liquidity and systemic risks in centralized and decentralized markets”, codice proposta 20227TCX5W - CUP J53D23004130006 funded by the European Union NextGenerationEU through the Piano Nazionale di Ripresa e Resilienza (PNRR).</li>
     <li>SoBigData.it receives funding from European Union – NextGenerationEU – National Recovery and Resilience Plan (Piano Nazionale di Ripresa e Resilienza, PNRR) – Project: “SoBigData.it – Strengthening the Italian RI for Social Mining and Big Data Analytics” – CUP B53C22001760006 – Prot. IR0000013 – Avviso n. 3264 del 28/12/2021.</li>
   </ul>
   <div class="sponsor-logos d-flex flex-wrap align-items-center gap-4">
