@@ -32,11 +32,18 @@ permalink: /
             style="max-height: 180px; object-fit: contain;">
           <h2 class="h5 mb-3">Important Dates</h2>
           <ul class="list-unstyled mb-0">
-            {% for deadline in homepage_deadlines %}
-              <li>
-                <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
-              </li>
-            {% endfor %}
+          {% assign homepage_deadlines = site.data.deadlines | default: empty %}
+          {% if homepage_deadlines and homepage_deadlines != empty %}
+            <ul class="deadlines-list">
+              {% for deadline in homepage_deadlines %}
+                <li>
+                  <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p class="text-muted">Deadlines lineup coming soon.</p>
+          {% endif %}
             <!-- <li><strong>Paper submission opens:</strong> 2025-11-01</li>
             <li><strong>Submission deadline:</strong> 2025-12-01</li>
             <li><strong>Notification to authors:</strong> 2025-12-15</li>
