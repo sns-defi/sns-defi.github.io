@@ -18,7 +18,8 @@ permalink: /
         </ul>
         <div class="d-flex gap-2 mt-3">
           <a class="btn btn-primary btn-lg" href="{{ '/registration/' | relative_url }}">Register</a>
-          <a class="btn btn-outline-primary btn-lg" href="{{ '/submission/' | relative_url }}">Submit a Paper</a>
+          <a class="btn btn-primary btn-lg" href="{{ '/submission/' | relative_url }}">Submit a Paper</a>
+          <!-- <a class="btn btn-outline-primary btn-lg" href="{{ '/submission/' | relative_url }}">Submit a Paper</a> -->
           <!--<a class="btn btn-outline-secondary btn-lg" href="{{ '/program/' | relative_url }}">See Program</a>-->
         </div>
       </div>
