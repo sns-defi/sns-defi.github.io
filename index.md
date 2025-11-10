@@ -26,7 +26,7 @@ permalink: /
       <div class="col-lg-4 mt-4 mt-lg-0">
         <div class="text-center">
           <img
-            src="{{ '/assets/img/sns_defi_logo.png' | relative_url }}"
+            src="{{ '/assets/img/sns_defi_logo_2.png' | relative_url }}"
             alt="Conference logo"
             class="img-fluid mb-3"
             style="max-height: 180px; object-fit: contain;">
