@@ -9,7 +9,7 @@ permalink: /committee/
   <li><strong>Davide Barone</strong> </li>
   <li><strong>Agostino Capponi</strong> </li>
   <li><strong>Daniele Maria Di Nosse</strong> </li>
-  <li><strong>Marco Franceschello</strong> </li>
+  <li><strong>Marco Francischello</strong> </li>
   <li><strong>Federico Gatta</strong> </li>
   <li><strong>Fabrizio Lillo</strong> </li>
   <li><strong>Manuel Naviglio</strong> </li>
