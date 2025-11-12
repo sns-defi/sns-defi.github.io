@@ -14,6 +14,7 @@ permalink: /submission/
   <li>Market microstructure of crypto exchanges (Centralized/Decentralized Exchanges);</li>
   <li>Agent-based modeling, econophysics, complexity science, and network effects in crypto ecosystems;</li>
   <li>Token economics, governance, NFTs, and digital assets;</li>
+  <li>Blockchain economics;</li>
   <li>Interaction between regulatory authorities, cryptocurrencies, and stablecoins.</li>
 </ul>
 <p> All submissions will undergo peer review by the Scientific Committee. At least one author of accepted papers must register.</p>
