@@ -17,7 +17,9 @@ permalink: /submission/
   <li>Blockchain economics;</li>
   <li>Interaction between regulatory authorities, cryptocurrencies, and stablecoins.</li>
 </ul>
-<p> All submissions will undergo peer review by the Scientific Committee. At least one author of accepted papers must register.</p>
+<p> The workshop does not have formal proceedings. Therefore, submissions of papers that have already been published or are under review elsewhere are welcome.
+  
+  All submissions will undergo peer review by the Scientific Committee. At least one author of accepted papers must register.</p>
   
 <p> Please submit your work via the conference email: <a href="mailto:sns.defi@gmail.com">sns.defi@gmail.com</a>
 
