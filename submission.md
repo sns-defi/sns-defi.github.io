@@ -30,7 +30,7 @@ permalink: /submission/
     {% for deadline in homepage_deadlines %}
       <li>
         {% if deadline.prev %}
-          {{ deadline.name }}: <del>{{deadline.prev}}</del> <strong>{{ deadline.date }}</strong>
+          {{ deadline.name }}: <del>{{deadline.prev}}</del>   <strong>{{ deadline.date }}</strong>
         {% else %}
           {{ deadline.name }}: <strong>{{ deadline.date }}</strong>
         {% endif %}
