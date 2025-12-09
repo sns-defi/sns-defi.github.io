@@ -37,7 +37,11 @@ permalink: /
             <ul class="deadlines-list">
               {% for deadline in homepage_deadlines %}
                 <li>
+                  {% if deadline.prev != empty %}
+                  <strong>{{ deadline.name }}</strong>: ~~{{ deadline.date }}~~ {{ deadline.date }}
+                  {% else %}
                   <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
+                  {% endif %}
                 </li>
               {% endfor %}
             </ul>
