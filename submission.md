@@ -29,8 +29,11 @@ permalink: /submission/
   <ul class="deadlines-list">
     {% for deadline in homepage_deadlines %}
       <li>
-        <!--<strong>{{ deadline.name }}</strong>-->
-         {{ deadline.name }}: <strong>{{ deadline.date }}</strong>
+        {% if deadline.prev %}
+          {{ deadline.name }}: <del>{{deadline.prev}}</del> <strong>{{ deadline.date }}</strong>
+        {% else %}
+          {{ deadline.name }}: <strong>{{ deadline.date }}</strong>
+        {% endif %}
       </li>
     {% endfor %}
       <!--<li>Paper/Extended Abstract Submission Deadline: <strong>2025-12-01</strong></li>-->

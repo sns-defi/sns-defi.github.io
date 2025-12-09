@@ -1,4 +1,4 @@
-- name: "Paper/Extended Abstract Submission Deadline"
+- name: "Paper/Extended Abstract Submission"
   prev: |
     2025-12-08
   date: |
@@ -10,10 +10,10 @@
   date: |
     2025-12-31
     
-- name: "Registration Deadline"
+- name: "Registration"
   date: |
     2026-01-07
     
-- name: "Fee Payment Deadline"
+- name: "Fee Payment"
   date: |
     2026-01-16
