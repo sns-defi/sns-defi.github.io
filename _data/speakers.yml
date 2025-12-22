@@ -4,6 +4,12 @@
   bio: |
     <em>TBD</em>
     
+- name: "Andrea Barbon"
+  affiliation: "University of St.Gallen"
+  image: "/assets/img/speakers/barbon.jpeg"
+  bio: |
+    DeFi-ying the Fed? Monetary Policy Transmission to Stablecoin Rates.
+    
 - name: "Andrea Canidio"
   affiliation: "CoW Protocol"
   image: "/assets/img/speakers/canidio.jpg"
@@ -47,9 +53,3 @@
   image: "/assets/img/speakers/treccani.jpeg"
   bio: |
     <em>Token issuance in PoS Networks: where Security meets Economic Sustainability</em>
-    
-- name: "TBA"
-  affiliation: ""
-  image: "/assets/img/speakers/tba.jpg"
-  bio: |
-    <em>TBD</em>
