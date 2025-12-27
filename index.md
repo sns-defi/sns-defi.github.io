@@ -37,8 +37,8 @@ permalink: /
             <ul class="deadlines-list">
               {% for deadline in homepage_deadlines %}
                 <li>
-                  {% if deadline.prevprev %}
-                  <strong>{{ deadline.name }}</strong>: <del>{{deadline.prevprev}}</del>   <del>{{deadline.prev}}</del>
+                  {% if deadline.text %}
+                  <strong>{{ deadline.name }}</strong>: {{deadline.text}}
                   {% else %}
                     {% if deadline.prev %}
                     <strong>{{ deadline.name }}</strong>: <del>{{deadline.prev}}</del>   {{ deadline.date }}
@@ -94,8 +94,8 @@ permalink: /
     <ul class="deadlines-list">
       {% for deadline in homepage_deadlines %}
         <li>
-          {% if deadline.prevprev %}
-          {{ deadline.name }}: <del>{{deadline.prev}}</del>   <del>{{deadline.prevprev}}</del>
+          {% if deadline.text %}
+          {{ deadline.name }}: <strong>{{deadline.text}}</strong>
           {% else %}
             {% if deadline.prev %}
             {{ deadline.name }}: <del>{{deadline.prev}}</del>   <strong>{{ deadline.date }}</strong>
