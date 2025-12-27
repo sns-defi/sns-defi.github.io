@@ -1,8 +1,9 @@
 - name: "Paper/Extended Abstract Submission"
-  prevprev: |
-    2025-12-08
   prev: |
+    2025-12-08
+  date: |
     2025-12-25
+  text: "Closed"
     
 - name: "Notification of Acceptance"
   prev: |
