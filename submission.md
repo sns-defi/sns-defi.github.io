@@ -29,10 +29,14 @@ permalink: /submission/
   <ul class="deadlines-list">
     {% for deadline in homepage_deadlines %}
       <li>
-        {% if deadline.prev %}
-          {{ deadline.name }}: <del>{{deadline.prev}}</del>   <strong>{{ deadline.date }}</strong>
+        {% if deadline.text %}
+        {{ deadline.name }}: <strong>{{deadline.text}}</strong>
         {% else %}
+          {% if deadline.prev %}
+          {{ deadline.name }}: <del>{{deadline.prev}}</del>   <strong>{{ deadline.date }}</strong>
+          {% else %}
           {{ deadline.name }}: <strong>{{ deadline.date }}</strong>
+          {% endif %}
         {% endif %}
       </li>
     {% endfor %}

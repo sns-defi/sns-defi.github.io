@@ -37,10 +37,14 @@ permalink: /
             <ul class="deadlines-list">
               {% for deadline in homepage_deadlines %}
                 <li>
-                  {% if deadline.prev %}
-                  <strong>{{ deadline.name }}</strong>: <del>{{deadline.prev}}</del>   {{ deadline.date }}
+                  {% if deadline.text %}
+                  <strong>{{ deadline.name }}</strong>: {{deadline.text}}
                   {% else %}
-                  <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
+                    {% if deadline.prev %}
+                    <strong>{{ deadline.name }}</strong>: <del>{{deadline.prev}}</del>   {{ deadline.date }}
+                    {% else %}
+                    <strong>{{ deadline.name }}</strong>: {{ deadline.date }}
+                    {% endif %}
                   {% endif %}
                 </li>
               {% endfor %}
@@ -90,10 +94,14 @@ permalink: /
     <ul class="deadlines-list">
       {% for deadline in homepage_deadlines %}
         <li>
-          {% if deadline.prev %}
-            {{ deadline.name }}: <del>{{deadline.prev}}</del>   <strong>{{ deadline.date }}</strong>
+          {% if deadline.text %}
+          {{ deadline.name }}: <strong>{{deadline.text}}</strong>
           {% else %}
+            {% if deadline.prev %}
+            {{ deadline.name }}: <del>{{deadline.prev}}</del>   <strong>{{ deadline.date }}</strong>
+            {% else %}
             {{ deadline.name }}: <strong>{{ deadline.date }}</strong>
+            {% endif %}
           {% endif %}
         </li>
       {% endfor %}
