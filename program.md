@@ -48,7 +48,8 @@ permalink: /program/
     <tr><td>16:00–16:25</td><td>Coffee Break</td><td><em>TBD</em></td></tr>
     <tr><td>16:25–17:20</td><td>Christof Ferreira Torres</td><td><em>To Spam or Not to Spam: The Rise of Speculative MEV Bots.</em></td></tr>
     <tr><td>17:20–18:10</td><td>Contributed Session</td><td><em>TBD</em></td></tr>
-    <tr><td>20:00–22:00</td><td>Social Dinner</td><td><em>TBD</em></td></tr>
+    <tr><td></td><td></td><td><em></em></td></tr>
+    <tr><td>20:00–22:00</td><td>Social Dinner</td><td><em>Location TBD</em></td></tr>
   </tbody>
 </table>
 
