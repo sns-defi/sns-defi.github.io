@@ -22,12 +22,14 @@ permalink: /program/
   </thead>
   <tbody>
     <!-- EXAMPLE OF ROW <tr><td>14:00–15:00</td><td>Session C OPPURE Panel 1 OPPURE Posters Session</td><td>Stablecoins & Payment Rails</td></tr>-->
-    <tr><td>14:00–14:20</td><td>Registration & Welcome</td><td></td></tr>
-    <tr><td>14:20–14:45</td><td>So Big Data</td><td></td></tr>
-    <tr><td>14:45–15:40</td><td>Antonio Russo</td><td><em>DeFi and Crypto-Assets under the MiCA Framework: New Frontiers and Challenges for Financial Supervision.</em></td></tr>
-    <tr><td>15:40–16:35</td><td>Andrea Barbon</td><td><em>DeFi-ying the Fed? Monetary Policy Transmission to Stablecoin Rates.</em></td></tr>
-    <tr><td>16:35–17:00</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>17:00–18:15</td><td>Contributed Session</td><td><em>TBD</em></td></tr>
+    <tr><td>12:00–12:30</td><td>Registration & Welcome</td><td></td></tr>
+    <tr><td>12:30–12:45</td><td>So Big Data</td><td></td></tr>
+    <tr><td>12:45–14:00</td><td>Lunch</td><td></td></tr>
+    <tr><td>14:00–14:55</td><td>Antonio Russo</td><td><em>DeFi and Crypto-Assets under the MiCA Framework: New Frontiers and Challenges for Financial Supervision.</em></td></tr>
+    <tr><td>14:55–16:10</td><td>Contributed Session</td><td><em>TBD</em></td></tr>
+    <tr><td>16:10–16:35</td><td>Coffee Break</td><td></td></tr>
+    <tr><td>16:35–17:30</td><td>Andrea Barbon</td><td><em>DeFi-ying the Fed? Monetary Policy Transmission to Stablecoin Rates.</em></td></tr>
+    <tr><td>17:30–18:45</td><td>Contributed Session</td><td><em>TBD</em></td></tr>
   </tbody>
 </table>
 
@@ -48,6 +50,7 @@ permalink: /program/
     <tr><td>16:00–16:25</td><td>Coffee Break</td><td><em>TBD</em></td></tr>
     <tr><td>16:25–17:20</td><td>Christof Ferreira Torres</td><td><em>To Spam or Not to Spam: The Rise of Speculative MEV Bots.</em></td></tr>
     <tr><td>17:20–18:10</td><td>Contributed Session</td><td><em>TBD</em></td></tr>
+    <tr><td>18:10–18:20</td><td>So Big Data</td><td><em>TBD</em></td></tr>
     <tr><td></td><td></td><td><em></em></td></tr>
     <tr><td>20:00–22:00</td><td>Social Dinner</td><td><em>Location TBD</em></td></tr>
   </tbody>
@@ -64,6 +67,7 @@ permalink: /program/
     <tr><td>10:45–11:10</td><td>Coffee Break</td><td></td></tr>
     <tr><td>11:10–12:05</td><td>Alessandro Balata</td><td><em>TBD</em></td></tr>
     <tr><td>12:05–12:55</td><td>Contributed Session</td><td><em>TBD</em></td></tr>
-    <tr><td>12:55–13:00</td><td>Closing Remarks</td><td></td></tr>
+    <tr><td>12:55–14:00</td><td>Lunch</td><td></td></tr>
+    <tr><td>14:00–14:15</td><td>So Big Data & Closing Remarks</td><td></td></tr>
   </tbody>
 </table>
