@@ -10,10 +10,12 @@
     2025-12-20
   date: |
     2025-12-31
+  text: "Closed"
     
 - name: "Registration"
   date: |
     2026-01-07
+  text: "Closed"
     
 - name: "Fee Payment"
   date: |
