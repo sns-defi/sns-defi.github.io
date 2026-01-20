@@ -6,7 +6,7 @@ permalink: /program/
 
 <h2 class="section-title">Program</h2>
 <p class="mb-3">The conference runs from <strong>Monday 26 January 2026</strong> to <strong>Wednesday 28 January 2026</strong> at Scuola Normale Superiore, Pisa. All times are <strong>CET (UTC+1)</strong>. All talks will be held in the <strong>Sala Azzurra</strong> (first floor). Coffee breaks and lunches will be served in the adjacent room.</p>
-<p class="mb-4" style="color: white;"><a class="btn btn-outline-secondary btn-sm" href="{{ '/Schedule.pdf' | relative_url }}" download>Download Schedule (PDF)</a></p>
+<p class="mb-4" style="color: white;"><a class="btn btn-outline-secondary btn-sm" style="color: #fff; font-size: 1.1rem; font-weight: 600;" href="{{ '/Schedule.pdf' | relative_url }}" download>Download Schedule (PDF)</a></p>
 
 <nav class="mb-4">
   <div class="btn-group" role="group" aria-label="Day navigation">
