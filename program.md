@@ -65,7 +65,7 @@ permalink: /program/
     <tr><td>09:00–09:55</td><td>Antonio Russo</td><td><em>- DeFi and Crypto-Assets under the MiCA Framework: New Frontiers and Challenges for Financial Supervision</em></td></tr>
     <tr><td>09:55–10:45</td><td>Luca Alberici<br>Nicolas Oderbolz &amp; Alberto Arrigoni</td><td><em>- Implied Impermanent Loss for Concentrated Liquidity</em><br><em>- User-specific Risk Premiums in a Decentralized Lending Platform</em></td></tr>
     <tr><td>10:45–11:10</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>11:10–12:05</td><td>Laura Ricci</td><td><em>TBD</em></td></tr>
+    <tr><td>11:10–12:05</td><td>Laura Ricci</td><td><em>- Blockchain under the lens: insights from the Pisa DLT Lab</em></td></tr>
     <tr><td>12:05–12:55</td><td>Vittorio Ruffo<br>Lidia Brailovskaya</td><td><em>- Market Efficiency in Prediction Markets - A Comparison with Derivatives</em><br><em>- Swaps and Options on Ethereum Gas Fees: A Framework for Risk Management in DeFi</em></td></tr>
     <tr><td>12:55–14:00</td><td>Lunch Break</td><td></td></tr>
     <tr><td>14:00–14:15</td><td>SoBigData &amp; Closing Remarks</td><td></td></tr>
