@@ -26,7 +26,7 @@ permalink: /program/
     <tr><td>12:00–12:30</td><td>Registration & Welcome</td><td></td></tr>
     <tr><td>12:30–12:45</td><td>SoBigData Presentation</td><td></td></tr>
     <tr><td>12:45–14:00</td><td>Lunch Break</td><td></td></tr>
-    <tr><td>14:00–14:55</td><td>Sebastian Jaimungal<br>Bastien Baude</td><td><em>- Equilibrium Liquidity and Risk Offsetting in Decentralised Markets</em><br><em>Optimal Execution on Uniswap v2/v3 Under Transient Price Impact</em></td></tr>
+    <tr><td>14:00–14:55</td><td>Sebastian Jaimungal<br></td><td><em>- Equilibrium Liquidity and Risk Offsetting in Decentralised Markets</em></td></tr>
     <tr><td>14:55–16:10</td><td>Bastien Baude<br>Federico Cini<br>Giulio Marino</td><td><em> - Optimal Execution on Uniswap v2/v3 Under Transient Price Impact</em><br><em>- From Micro-Foundations to Market Dynamics: A Structural Cointegration Model of Bitcoin Prices</em><br><em>- Predicting the Success of New Crypto-tokens</em></td></tr>
     <tr><td>16:10–16:35</td><td>Coffee Break</td><td></td></tr>
     <tr><td>16:35–17:30</td><td>Christof Torres</td><td><em>- To Spam or Not to Spam: The Rise of Speculative MEV Bots</em></td></tr>
