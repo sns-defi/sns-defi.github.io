@@ -43,7 +43,7 @@ permalink: /program/
     <tr><td>09:00–09:55</td><td>Andrea Canidio</td><td><em>- Becoming Immutable: How Ethereum is Made</em></td></tr>
     <tr><td>09:55–10:50</td><td>Michele Treccani</td><td><em>- Token issuance in PoS Networks: where Security meets Economic Sustainability</em></td></tr>
     <tr><td>10:50–11:15</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>11:15–12:05</td><td>Nicola Gallo<br>Luca Pennella</td><td><em>- Authority is Not a Token: How Provenance Identity Continuity Rewrites the Ontology of Decentralized</em><br><em>- Money in Motion: Micro-Velocity and Usage of Ethereum’s Liquid Staking Tokens</em></td></tr>
+    <tr><td>11:15–12:05</td><td>Nicola Gallo<br>Luca Pennella</td><td><em>- Authority is Not a Token: How Provenance Identity Continuity Rewrites the Ontology of Decentralized Finance</em><br><em>- Money in Motion: Micro-Velocity and Usage of Ethereum’s Liquid Staking Tokens</em></td></tr>
     <tr><td>12:05–13:00</td><td>Alessandro Balata</td><td><em>TBD</em></td></tr>
     <tr><td>13:00–14:15</td><td>Lunch Break</td><td></td></tr>
     <tr><td>14:15–15:10</td><td>Andrea Barbon</td><td><em>- DeFi-ying the Fed? Monetary Policy Transmission to Stablecoin Rates</em></td></tr>
@@ -65,7 +65,7 @@ permalink: /program/
     <tr><td>09:00–09:55</td><td>Antonio Russo</td><td><em>- DeFi and Crypto-Assets under the MiCA Framework: New Frontiers and Challenges for Financial Supervision</em></td></tr>
     <tr><td>09:55–10:45</td><td>Luca Alberici<br>Nicolas Oderbolz &amp; Alberto Arrigoni</td><td><em>- Implied Impermanent Loss for Concentrated Liquidity</em><br><em>- User-specific Risk Premiums in a Decentralized Lending Platform</em></td></tr>
     <tr><td>10:45–11:10</td><td>Coffee Break</td><td></td></tr>
-    <tr><td>11:10–12:05</td><td>Laura Ricci</td><td><em>TBD</em></td></tr>
+    <tr><td>11:10–12:05</td><td>Laura Ricci</td><td><em>- Blockchain under the lens: insights from the Pisa DLT Lab</em></td></tr>
     <tr><td>12:05–12:55</td><td>Vittorio Ruffo<br>Lidia Brailovskaya</td><td><em>- Market Efficiency in Prediction Markets - A Comparison with Derivatives</em><br><em>- Swaps and Options on Ethereum Gas Fees: A Framework for Risk Management in DeFi</em></td></tr>
     <tr><td>12:55–14:00</td><td>Lunch Break</td><td></td></tr>
     <tr><td>14:00–14:15</td><td>SoBigData &amp; Closing Remarks</td><td></td></tr>

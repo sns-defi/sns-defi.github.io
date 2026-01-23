@@ -136,5 +136,10 @@ permalink: /
       alt="University of Bologna"
       height="42"
       class="sponsor-logo">
+    <img
+      src="{{ '/assets/img/orizzontale colore.jpg' | relative_url }}"
+      alt="Scuola Normale Superiore"
+      height="42"
+      class="sponsor-logo">
   </div>
 </section>
