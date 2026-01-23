@@ -8,7 +8,7 @@ permalink: /registration/
 <p>The School will be held in person only, and the number of participants is limited.
   Applications will be evaluated based on the Resume/CV provided during registration, following a first-come, first-served policy. Each application will be reviewed within a few days of submission.</p>
   
-<p>Participation in the School requires a registration fee of 50 EUR, intended to mitigate the risk of non-attendance. Payment details will be provided upon acceptance.</p>
+<p>Participation in the School requires a registration fee of 50 EUR, intended to mitigate the risk of attendance and to cover the costs of the social dinner. Payment details will be provided upon acceptance.</p>
 
 <div class="alert alert-info" role="alert">
   <strong>To apply, please email sns.defi@gmail.com with your Resume/CV attached.</strong>
