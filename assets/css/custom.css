@@ -49,6 +49,20 @@ footer a { text-decoration: none; }
   margin-top: .35rem;
 }
 
+.last-edition-carousel .carousel-inner {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.last-edition-carousel .carousel-item {
+  background: rgba(0, 0, 0, .25);
+}
+
+.last-edition-carousel .carousel-item img {
+  height: clamp(260px, 45vw, 520px);
+  object-fit: contain;
+}
+
 /* Added to fade as scroll */
 .navbar {
   transition: opacity 0.3s ease;

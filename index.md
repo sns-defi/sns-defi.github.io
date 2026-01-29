@@ -72,6 +72,44 @@ permalink: /
 </section>
 
 <section class="mt-5">
+  <h2 class="section-title">Last Edition</h2>
+  {% assign last_edition_photos = site.static_files | where_exp: "file", "file.path contains '/photo/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.webp' or file.extname == '.gif'" | sort: "path" %}
+  {% if last_edition_photos and last_edition_photos != empty %}
+    <div id="lastEditionCarousel" class="carousel slide last-edition-carousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        {% for photo in last_edition_photos %}
+          <button
+            type="button"
+            data-bs-target="#lastEditionCarousel"
+            data-bs-slide-to="{{ forloop.index0 }}"
+            class="{% if forloop.first %}active{% endif %}"
+            {% if forloop.first %}aria-current="true"{% endif %}
+            aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
+      </div>
+      <div class="carousel-inner">
+        {% for photo in last_edition_photos %}
+          {% assign photo_alt = photo.name | split: '.' | first | replace: '_', ' ' | replace: '-', ' ' %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img src="{{ photo.path | relative_url }}" class="d-block w-100" alt="{{ photo_alt | escape }}">
+          </div>
+        {% endfor %}
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#lastEditionCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#lastEditionCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  {% else %}
+    <p class="text-muted">Photos coming soon.</p>
+  {% endif %}
+</section>
+
+<section class="mt-5">
   <h2 class="section-title">Invited Speakers</h2>
   {% assign homepage_speakers = site.data.speakers | default: empty %}
   {% if homepage_speakers and homepage_speakers != empty %}
