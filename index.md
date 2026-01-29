@@ -73,7 +73,8 @@ permalink: /
 
 <section class="mt-5">
   <h2 class="section-title">Last Edition</h2>
-  {% assign last_edition_photos = site.static_files | where_exp: "file", "file.path contains '/photo/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.webp' or file.extname == '.gif'" | sort: "path" %}
+  {% assign last_edition_image_exts = '.jpg,.jpeg,.png,.webp,.gif' | split: ',' %}
+  {% assign last_edition_photos = site.static_files | where_exp: "file", "file.path contains '/photo/'" | where_exp: "file", "last_edition_image_exts contains file.extname" | sort: "path" %}
   {% if last_edition_photos and last_edition_photos != empty %}
     <div id="lastEditionCarousel" class="carousel slide last-edition-carousel" data-bs-ride="carousel">
       <div class="carousel-indicators">
