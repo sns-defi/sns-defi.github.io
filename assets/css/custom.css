@@ -59,7 +59,8 @@ footer a { text-decoration: none; }
 }
 
 .last-edition-carousel .carousel-item img {
-  height: clamp(260px, 45vw, 520px);
+  width: 50%;
+  height: clamp(130px, 22.5vw, 260px);
   object-fit: contain;
 }
 

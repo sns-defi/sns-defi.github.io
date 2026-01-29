@@ -92,7 +92,7 @@ permalink: /
         {% for photo in last_edition_photos %}
           {% assign photo_alt = photo.name | split: '.' | first | replace: '_', ' ' | replace: '-', ' ' %}
           <div class="carousel-item {% if forloop.first %}active{% endif %}">
-            <img src="{{ photo.path | relative_url }}" class="d-block w-100" alt="{{ photo_alt | escape }}">
+            <img src="{{ photo.path | relative_url }}" class="d-block mx-auto" alt="{{ photo_alt | escape }}">
           </div>
         {% endfor %}
       </div>
